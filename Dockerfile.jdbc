@@ -1,0 +1,5 @@
+FROM openjdk:17
+EXPOSE 8080:8080
+RUN mkdir /app
+COPY ./backend-jdbc/build/libs/*-all.jar /app/boo-track-backend.jar
+ENTRYPOINT ["java","-jar","/app/boo-track-backend.jar"]

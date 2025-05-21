@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45" height="50" viewBox="0 0 9 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <g id="duck">
+        <path
+                id="duck_outline"
+                style="fill:#000000"
+                d="M 3 1 L 3 2 L 6 2 L 6 1 L 3 1 z M 6 2 L 6 4 L 7 4 L 7 2 L 6 2 z M 7 4 L 7 5 L 8 5 L 8 4 L 7 4 z M 7 5 L 6 5 L 6 7 L 2 7 L 2 8 L 3 8 L 3 9 L 4 9 L 4 8 L 5 8 L 5 9 L 6 9 L 6 8 L 7 8 L 7 5 z M 2 7 L 2 6 L 4 6 L 4 5 L 3 5 L 3 2 L 2 2 L 2 5 L 1 5 L 1 7 L 2 7 z M 4 3 L 4 4 L 5 4 L 5 3 L 4 3 z " />
+        <rect
+                style="fill:#cd6512"
+                id="duck_beak_dark"
+                width="1"
+                height="1"
+                x="5"
+                y="4" />
+        <rect
+                style="fill:#e17333"
+                id="duck_beak_light"
+                width="1"
+                height="1"
+                x="6"
+                y="4" />
+        <rect
+                style="fill:#dca825"
+                id="duck_body_dark"
+                width="4"
+                height="1"
+                x="2"
+                y="6" />
+        <path
+                id="duck_body_light"
+                style="fill:#f5d033"
+                d="M 3 2 L 3 3 L 3 5 L 4 5 L 4 6 L 5 6 L 6 6 L 6 5 L 5 5 L 5 4 L 4 4 L 4 3 L 5 3 L 5 4 L 6 4 L 6 3 L 6 2 L 3 2 z " />
+    </g>
+</svg>

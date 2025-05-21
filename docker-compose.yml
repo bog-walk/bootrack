@@ -1,0 +1,23 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.jdbc
+    container_name: bt_demo_container
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgres:
+        condition: service_healthy
+  postgres:
+    image: postgis/postgis:latest
+    container_name: bt_demo_db
+    environment:
+      POSTGRES_DB: bt_demo
+      POSTGRES_USER: bt_demo_user
+      POSTGRES_PASSWORD: bt_demo_pass
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -U bt_demo_user -d bt_demo" ]
+      interval: 5s

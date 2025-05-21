@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Nav Bar-->
+    <string name="app_name">BooTrack</string>
+    <string name="issues">Issues</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="notifications">Notifications</string>
+    <!--Screen Header-->
+    <string name="project">Project</string>
+    <string name="user">User</string>
+    <string name="search">Search</string>
+    <string name="search_tt">Search</string>
+    <string name="search_hide_tt">Hide resolved issues</string>
+    <string name="search_show_tt">Show resolved issues</string>
+    <string name="search_clear_tt">Clear search input</string>
+    <string name="new_issue">New Issue</string>
+    <!--Issue Header-->
+    <string name="created_by">Created by</string>
+    <string name="last_modified">Modified</string>
+    <string name="issue_watch_tt">Toggle watch tag</string>
+    <string name="issue_edit_tt">Edit issue</string>
+    <string name="issue_delete">Delete issue</string>
+    <string name="issue_find_similar">Find similar items</string>
+    <string name="issue_upvote_tt">Toggle upvote tag</string>
+    <string name="issue_comment_tt">See comments</string>
+    <!--Issue Body-->
+    <string name="relates_to">Relates to</string>
+    <string name="comment">Write a comment</string>
+    <string name="edited">(Edited)</string>
+    <string name="comment_edit_tt">Edit comment</string>
+    <string name="comment_delete">Delete comment</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <!--Issue Fields-->
+    <string name="priority">Priority</string>
+    <string name="assignee">Assignee</string>
+    <string name="unassigned">Unassigned</string>
+    <string name="state">State</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="n_a">N/A</string>
+    <!--Issue Form-->
+    <string name="summary">Summary</string>
+    <string name="description">Type or paste description here</string>
+    <string name="create">Create</string>
+    <string name="create_disabled_tt">Please enter a summary</string>
+    <string name="cancel">Cancel</string>
+    <!--Issue List-->
+    <string name="load_more">Load More</string>
+    <string name="previous_page">Previous</string>
+    <string name="next_page">Next</string>
+    <string name="refresh_results">Refresh</string>
+    <!--Dialog Form-->
+    <string name="confirm">Confirm</string>
+    <string name="delete_issue_confirm">Delete issue?</string>
+    <string name="delete_issue">This issue will be permanently deleted, along with all its comments</string>
+    <!--User Account-->
+    <string name="general">General</string>
+    <string name="saved_search">Saved Search</string>
+    <string name="user_full_name">Full Name</string>
+    <string name="user_name">Username</string>
+    <string name="user_avatar">Avatar</string>
+    <string name="user_default_project">Default Project</string>
+    <string name="user_default_location">Default Location</string>
+    <string name="user_max_travel">Maximum Travel (km)</string>
+    <string name="user_dt_format">Date Format</string>
+    <string name="user_sort">Default sorting for text search</string>
+    <string name="star_remove">Remove star when</string>
+    <string name="star_add">Star automatically when</string>
+    <string name="notification_events">Notification events</string>
+    <string name="notify_changes">Changes applied by me</string>
+    <string name="notify_mentions">@mentions that reference my username</string>
+    <string name="notify_issue_created">I create an issue</string>
+    <string name="notify_issue_updated">I update an issue</string>
+    <string name="notify_issue_assigned">I am assigned an issue</string>
+    <string name="notify_issue_upvoted">I vote for an issue</string>
+    <string name="issue_closed">Issue is closed</string>
+    <string name="rank_tt">Rank by</string>
+    <string name="rank_by_open">Length open</string>
+    <string name="rank_by_votes">Upvotes</string>
+    <string name="rank_by_stars">Stars</string>
+    <string name="log_in">Log In</string>
+    <!--Result Messages-->
+    <string name="no_results">No issues here...</string>
+    <string name="coffee">Coffee break?</string>
+    <string name="error_results">Something went wrong...</string>
+    <string name="reloading">Try reloading?</string>
+    <string name="loading_results">Loading...</string>
+</resources>
